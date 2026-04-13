@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品中心 - 深圳市雄光塑胶绝缘材料有限公司</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">雄光塑胶</span>
+                    <span class="logo-sub">绝缘材料专家</span>
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html">首页</a>
+                    <a href="about.html">关于我们</a>
+                    <a href="products.html" class="active">产品中心</a>
+                    <a href="solutions.html">解决方案</a>
+                    <a href="support.html">技术支持</a>
+                    <a href="news.html">新闻动态</a>
+                    <a href="contact.html">联系我们</a>
+                </div>
+                <div class="nav-actions">
+                    <a href="tel:0755-12345678" class="btn btn-outline">
+                        <i class="fas fa-phone"></i> 0755-12345678
+                    </a>
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 页面标题 -->
+    <section class="page-header">
+        <div class="container">
+            <h1>产品中心</h1>
+            <p>专业绝缘材料，满足各种工业需求</p>
+            <nav class="breadcrumb">
+                <a href="index.html">首页</a> / <span>产品中心</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- 产品分类 -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>产品分类</h2>
+                <p>我们提供多种类型的塑胶绝缘材料，满足不同行业需求</p>
+            </div>
+            
+            <div class="category-filter">
+                <button class="filter-btn active" data-filter="all">全部产品</button>
+                <button class="filter-btn" data-filter="pvc">PVC绝缘材料</button>
+                <button class="filter-btn" data-filter="pe">PE绝缘材料</button>
+                <button class="filter-btn" data-filter="pp">PP绝缘材料</button>
+                <button class="filter-btn" data-filter="pet">PET绝缘材料</button>
+                <button class="filter-btn" data-filter="special">特种绝缘材料</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品展示 -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="products-grid">
+                <!-- PVC绝缘材料 -->
+                <div class="product-card" data-category="pvc">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="PVC绝缘材料">
+                        <span class="product-badge">热销</span>
+                    </div>
+                    <div class="product-content">
+                        <h3>PVC绝缘套管</h3>
+                        <p class="product-desc">高阻燃、耐高温PVC绝缘套管，适用于电线电缆保护</p>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <i class="fas fa-temperature-high"></i>
+                                <span>耐温: -40°C ~ 105°C</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-fire"></i>
+                                <span>阻燃等级: VW-1</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-ruler"></i>
+                                <span>规格: Φ0.5mm - Φ50mm</span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="contact.html" class="btn btn-primary">咨询详情</a>
+                            <a href="#" class="btn-link">技术参数 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PE绝缘材料 -->
+                <div class="product-card" data-category="pe">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="PE绝缘材料">
+                    </div>
+                    <div class="product-content">
+                        <h3>PE绝缘薄膜</h3>
+                        <p class="product-desc">高透明度、高强度聚乙烯绝缘薄膜，用于电子元件包装</p>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <i class="fas fa-temperature-high"></i>
+                                <span>耐温: -60°C ~ 80°C</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>绝缘强度: ≥30kV/mm</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-ruler"></i>
+                                <span>厚度: 0.02mm - 0.5mm</span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="contact.html" class="btn btn-primary">咨询详情</a>
+                            <a href="#" class="btn-link">技术参数 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PP绝缘材料 -->
+                <div class="product-card" data-category="pp">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="PP绝缘材料">
+                        <span class="product-badge">新品</span>
+                    </div>
+                    <div class="product-content">
+                        <h3>PP绝缘板</h3>
+                        <p class="product-desc">聚丙烯绝缘板，优异的介电性能和机械强度</p>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <i class="fas fa-temperature-high"></i>
+                                <span>耐温: -20°C ~ 120°C</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-bolt"></i>
+                                <span>介电常数: 2.2-2.3</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-ruler"></i>
+                                <span>规格: 1000×2000mm</span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="contact.html" class="btn btn-primary">咨询详情</a>
+                            <a href="#" class="btn-link">技术参数 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PET绝缘材料 -->
+                <div class="product-card" data-category="pet">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="PET绝缘材料">
+                    </div>
+                    <div class="product-content">
+                        <h3>PET绝缘胶带</h3>
+                        <p class="product-desc">聚酯薄膜绝缘胶带，耐高温、耐腐蚀</p>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <i class="fas fa-temperature-high"></i>
+                                <span>耐温: -40°C ~ 130°C</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>击穿电压: ≥6kV</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-ruler"></i>
+                                <span>宽度: 5mm - 50mm</span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="contact.html" class="btn btn-primary">咨询详情</a>
+                            <a href="#" class="btn-link">技术参数 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 特种绝缘材料 -->
+                <div class="product-card" data-category="special">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="特种绝缘材料">
+                        <span class="product-badge">定制</span>
+                    </div>
+                    <div class="product-content">
+                        <h3>硅橡胶绝缘材料</h3>
+                        <p class="product-desc">高温硅橡胶绝缘制品，适用于特殊环境</p>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <i class="fas fa-temperature-high"></i>
+                                <span>耐温: -60°C ~ 250°C</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>绝缘电阻: ≥10¹⁴Ω</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-industry"></i>
+                                <span>应用: 航空航天</span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="contact.html" class="btn btn-primary">咨询详情</a>
+                            <a href="#" class="btn-link">技术参数 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 更多产品 -->
+                <div class="product-card" data-category="pvc">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="PVC绝缘带">
+                    </div>
+                    <div class="product-content">
+                        <h3>PVC绝缘带</h3>
+                        <p class="product-desc">自粘性PVC绝缘带，施工方便，绝缘性能优异</p>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <i class="fas fa-temperature-high"></i>
+                                <span>耐温: -20°C ~ 80°C</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>绝缘强度: ≥5kV</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-ruler"></i>
+                                <span>规格: 18mm×20m</span>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="contact.html" class="btn btn-primary">咨询详情</a>
+                            <a href="#" class="btn-link">技术参数 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品规格表 -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>产品规格参数</h2>
+                <p>详细的技术参数和性能指标</p>
+            </div>
+            
+            <div class="table-responsive">
+                <table class="spec-table">
+                    <thead>
+                        <tr>
+                            <th>产品名称</th>
+                            <th>材料</th>
+                            <th>耐温范围</th>
+                            <th>绝缘强度</th>
+                            <th>阻燃等级</th>
+                            <th>标准规格</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PVC绝缘套管</td>
+                            <td>聚氯乙烯</td>
+                            <td>-40°C ~ 105°C</td>
+                            <td>≥15kV/mm</td>
+                            <td>VW-1</td>
+                            <td>Φ0.5-50mm</td>
+                        </tr>
+                        <tr>
+                            <td>PE绝缘薄膜</td>
+                            <td>聚乙烯</td>
+                            <td>-60°C ~ 80°C</td>
+                            <td>≥30kV/mm</td>
+                            <td>HB</td>
+                            <td>0.02-0.5mm</td>
+                        </tr>
+                        <tr>
+                            <td>PP绝缘板</td>
+                            <td>聚丙烯</td>
+                            <td>-20°C ~ 120°C</td>
+                            <td>≥25kV/mm</td>
+                            <td>V-2</td>
+                            <td>1000×2000mm</td>
+                        </tr>
+                        <tr>
+                            <td>PET绝缘胶带</td>
+                            <td>聚酯薄膜</td>
+                            <td>-40°C ~ 130°C</td>
+                            <td>≥6kV</td>
+                            <td>VTM-0</td>
+                            <td>5-50mm宽</td>
+                        </tr>
+                        <tr>
+                            <td>硅橡胶绝缘</td>
+                            <td>硅橡胶</td>
+                            <td>-60°C ~ 250°C</td>
+                            <td>≥20kV/mm</td>
+                            <td>V-0</td>
+                            <td>定制</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 应用领域 -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>应用领域</h2>
+                <p>我们的产品广泛应用于以下行业</p>
+            </div>
+            
+            <div class="applications-grid">
+                <div class="app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>电力电气</h3>
+                    <p>变压器、开关柜、电缆附件等电力设备绝缘</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>汽车制造</h3>
+                    <p>汽车线束、电机绝缘、电池包绝缘材料</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>电子电器</h3>
+                    <p>PCB板、电子元件、家用电器绝缘保护</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>航空航天</h3>
+                    <p>航空电子设备、航天器特种绝缘材料</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>工业设备</h3>
+                    <p>电机、变频器、工业控制设备绝缘</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>新能源</h3>
+                    <p>光伏设备、风电设备、储能系统绝缘</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 质量认证 -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>质量认证</h2>
+                <p>我们的产品通过多项国际国内认证</p>
+            </div>
+            
+            <div class="certifications">
+                <div class="cert-item">
+                    <img src="https://img.icons8.com/color/96/000000/iso.png" alt="ISO认证">
+                    <h4>ISO9001</h4>
+                    <p>质量管理体系认证</p>
+                </div>
+                <div class="cert-item">
+                    <img src="https://img.icons8.com/color/96/000000/rohs.png" alt="RoHS认证">
+                    <h4>RoHS</h4

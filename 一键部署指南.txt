@@ -1,0 +1,153 @@
+==========================================
+深圳市雄光塑胶绝缘材料有限公司官方网站
+           一键部署指南
+==========================================
+
+📅 创建时间：2026年4月14日
+✅ 状态：100%完成，生产就绪
+
+【第一步：准备工作】
+1. 确保您拥有 szxgsj.com 域名（已在阿里云注册）
+2. 准备一个电子邮箱（用于注册GitHub）
+
+【第二步：创建GitHub账号】
+1. 访问：https://github.com
+2. 点击 "Sign up" 注册
+3. 填写：用户名、邮箱、密码
+4. 验证邮箱，完成注册
+
+【第三步：上传网站文件】
+1. 登录GitHub后，点击右上角 "+" → "New repository"
+2. 仓库名称：szxgsj-website
+3. 描述：深圳市雄光塑胶绝缘材料有限公司官方网站
+4. 选择：Public（公开）
+5. 不勾选 "Initialize this repository with a README"
+6. 点击 "Create repository"
+
+7. 在仓库页面，点击 "uploading an existing file"
+8. 打开文件夹：C:\Users\Administrator\Desktop\雄光塑胶网站
+9. 选中所有文件，拖到上传区域
+10. 填写：Initial commit - 雄光塑胶官方网站
+11. 点击 "Commit changes"
+
+【第四步：启用GitHub Pages】
+1. 进入仓库 → Settings（设置）
+2. 左侧菜单选择 "Pages"
+3. 在 "Source" 部分：
+   - Branch: 选择 "main"
+   - Folder: 选择 "/" (root)
+4. 点击 "Save"
+
+5. 等待1-2分钟，页面会显示：
+   "Your site is published at https://用户名.github.io/szxgsj-website/"
+
+【第五步：配置自定义域名】
+1. 在GitHub Pages设置中，找到 "Custom domain"
+2. 输入：szxgsj.com
+3. 点击 "Save"
+4. 勾选 "Enforce HTTPS"（启用HTTPS）
+
+【第六步：配置阿里云DNS】
+1. 登录阿里云控制台：https://homenew.console.aliyun.com
+2. 进入域名管理
+3. 找到 szxgsj.com 域名
+4. 点击 "解析设置"
+
+5. 添加以下DNS记录：
+   【记录1 - A记录】
+   记录类型：A
+   主机记录：@
+   记录值：185.199.108.153
+   TTL：10分钟
+
+   【记录2 - A记录】
+   记录类型：A
+   主机记录：@
+   记录值：185.199.109.153
+   TTL：10分钟
+
+   【记录3 - A记录】
+   记录类型：A
+   主机记录：@
+   记录值：185.199.110.153
+   TTL：10分钟
+
+   【记录4 - A记录】
+   记录类型：A
+   主机记录：@
+   记录值：185.199.111.153
+   TTL：10分钟
+
+   【记录5 - CNAME记录】
+   记录类型：CNAME
+   主机记录：www
+   记录值：用户名.github.io
+   TTL：10分钟
+
+6. 保存所有记录
+
+【第七步：验证部署】
+1. 等待5-10分钟（DNS生效时间）
+2. 访问测试：
+   - GitHub临时地址：https://用户名.github.io/szxgsj-website
+   - 自定义域名：https://szxgsj.com
+   - 带www：https://www.szxgsj.com
+
+3. 检查所有页面：
+   - 首页：https://szxgsj.com
+   - 产品中心：https://szxgsj.com/products.html
+   - 联系我们：https://szxgsj.com/contact.html
+
+【常见问题解决】
+
+❓ 问题1：页面显示404错误
+✅ 解决：检查GitHub Pages设置，确保分支选择正确
+
+❓ 问题2：域名无法访问
+✅ 解决：等待DNS生效（最长24小时），检查DNS记录是否正确
+
+❓ 问题3：HTTPS证书错误
+✅ 解决：GitHub会自动提供SSL证书，等待证书生效
+
+❓ 问题4：图片不显示
+✅ 解决：检查图片路径，确保所有文件已上传
+
+【技术支持】
+如需帮助，可：
+1. 查看 README.md 文件中的详细指南
+2. 查看 项目完成总结.md 了解网站功能
+3. 联系OpenClaw AI助手获取实时帮助
+
+【网站功能清单】
+✅ 首页 - 公司形象展示
+✅ 关于我们 - 公司介绍
+✅ 产品中心 - 5类产品，筛选功能
+✅ 解决方案 - 6大行业方案
+✅ 技术支持 - FAQ、文档下载
+✅ 新闻动态 - 公司新闻
+✅ 联系我们 - 在线表单
+✅ 响应式设计 - 手机/平板/电脑
+✅ 移动端菜单 - 小屏幕适配
+✅ 产品筛选 - 按类别筛选
+✅ FAQ系统 - 展开收起
+✅ 表单验证 - 联系表单
+✅ 深色模式 - 自动适配
+✅ SEO优化 - 搜索引擎友好
+
+【预计时间】
+- GitHub注册：5分钟
+- 文件上传：5分钟
+- GitHub Pages设置：2分钟
+- DNS配置：5分钟
+- DNS生效：5-30分钟
+- 总计：约30分钟
+
+【成本】
+- GitHub Pages：免费
+- 域名：已有 szxgsj.com
+- 总成本：0元
+
+🎉 恭喜！您的专业企业官网已准备就绪！
+🏢 深圳市雄光塑胶绝缘材料有限公司
+🌐 官网地址：https://szxgsj.com
+📞 技术支持：OpenClaw AI助手
